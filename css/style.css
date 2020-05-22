@@ -1093,10 +1093,50 @@
 
     #footer {
         background: #101522;
-        padding: 0 0 25px 0;
         color: #eee;
         font-size: 14px;
+        max-width: 100%;
+        overflow: hidden;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 16px;
     }
+
+    #footer a {
+        color: white;
+    }
+
+    #footer ul {
+        list-style-type: none;
+    }
+
+    #footer li {
+        padding-bottom: 10px;
+    }
+
+    #footer #links {
+        padding-bottom: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #footer #by {
+        text-align: center;
+    }
+
+    #footer a:hover .fab.fa-twitter:before {
+        color: #00acee;
+    }
+
+    #footer #follow {
+        font-size: 24px;
+        padding-top: 50px;
+    }
+
+    #footer #infos {
+        text-align: right;
+    }
+
     /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
